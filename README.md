@@ -1,3 +1,7 @@
+Essa Francine é inspirada na Francine abaixo, tendo sido alterado apenas (por motivos de aprendizado de CSS) a cor dos olhos e da boca.
+
+Créditos da obra a Cyan Harlow.
+
 # Pure CSS Francine
 
 An ongoing series in which I create art using only CSS and HTML.
