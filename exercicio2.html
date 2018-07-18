@@ -1,0 +1,69 @@
+<!-- CSS display é uma propriedade que determina como o elemento vai ficar disposto, podendo ser um elemento que ocupa até o final lateral da página (block) ou que ocupa o minímo de espaço possível, ficando "grudado" lateralmente com o conteúdo (inline). O valor inline-block une os dois valores, ficando "grudado" lateralmente com o conteúdo mas também respeitando  margens superiores e inferiores definidas. Além disso, os elementos ficam lado a lado um do outro. O padrão para a tag div é block.-->
+
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treinamento CSS</title>
+    <style media="screen">
+      body > div:not(#father) {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+
+      }
+      body {
+        background-color:blue;
+      }
+      #first {
+        left: 150px;
+        top: 150px;
+        padding: 20px;
+        border: 2px dashed orange;
+        background-color: red;
+        
+      }
+      #second {
+        left: 200px;
+        top: 100px;
+        margin-left: 50px;
+        border: 5px solid #000;
+        background-color: green;
+        font-size: 130%;
+      }
+      #father {
+        width: 100%;
+      }
+      #father div {
+        display: inline-block;
+        width: 100px;
+      }
+      #third {
+        background-color: pink;
+        border:20px solid yellow;
+        margin-right:50px;
+
+
+      }
+      #fourth {
+        background-color: orange;
+        border:20px solid yellow;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="first">
+      Second!
+    </div>
+
+    <div id="second">
+      First!
+    </div>
+
+    <div id="father">
+      <div id="third">Third!</div><div id="fourth">Fourth!</div>
+    </div>
+
+  </body>
+</html>

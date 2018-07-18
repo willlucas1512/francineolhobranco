@@ -1,0 +1,42 @@
+h2{
+	color: #00FF00;
+	text-shadow: 3px 3px #4682B4;
+
+}
+
+span {
+	color:#008B8B;
+	font-weight: bold;
+}
+
+label {
+	color:#008B8B;
+	font-weight: bold;
+}
+
+body {
+
+    background-image: url(fundosite.jpg);
+}
+
+div {
+	text-align: center;
+	font-family:"Verdana", Verdana, sans-serif;
+}
+
+caption {
+	color:#2F4F4F;
+	text-shadow: 3px 3px #4682B4;
+	font-weight: bold;
+	font-size: large
+
+}
+
+table {
+	border-collapse: collapse;
+	border-color: #191970;
+	background-color: #008B8B;
+	color:#7FFFD4;
+	margin-left:auto; 
+    margin-right:auto;
+}
